@@ -6,10 +6,22 @@
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
   <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" /> -->
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./header.css">
   <title>Hello from Electron renderer!</title>
 </head>
 
 <body>
+  <header>
+    <h1>Electron App</h1>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">To do list</a></li>
+          <li><a href="./calendar/index.html">Calandar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <div id="myDIV" class="header">
     <h2>My To Do List</h2>
     <input type="text" id="myInput" placeholder="Title...">
