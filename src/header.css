@@ -24,6 +24,7 @@ header nav ul {
 
 header nav ul li {
   margin: 0 15px;
+  border: #ddd solid 1px;
 }
 
 header nav ul li a {
