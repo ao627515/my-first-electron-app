@@ -48,6 +48,7 @@ module.exports = {
     {
       name: '@electron-forge/publisher-github',
       config: {
+        authToken: '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',
         repository: {
           owner: 'ao627515',
           name: 'my-first-electron-app'
